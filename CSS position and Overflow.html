@@ -1,0 +1,72 @@
+<style media="screen">
+    .container{
+        width: 50%;
+        height: 200px;
+        overflow: auto;
+        margin-left: 0 auto;
+    }
+    .static{ position: statio; border: 2px solid green; }
+    .relative{
+        position: relative;
+        border: 2px solid red;
+        left: 20px; /* jarak dari posisi paling kiri sebesar 20px */
+        bottom: 0; /* jarak dari posisi paling bawah sebesar 0px */
+    }
+    .absolute{ position: static; border: 2px solid green; }
+    .fixed{ position: fixed; border: 2px solid black; bottom: 0; right: 0;}
+    .sticky{
+        position: sticky;
+        border: 2px solid yellow;
+        top: 0;
+        left: 20px;
+        background: darkblue;
+        color:white;
+    }
+</style>
+
+<div class="container">
+    <p class="sticky">
+        Ini adlah contoh dari posisi sticky
+    </p>
+
+    <p class="static">
+        <b>Ini adalah contoh dari position static</b> <br>
+        I found a love for me Darling just dive right in And follow my lead
+        Well I found a girl beautiful and sweet 
+        I never knew you were the someone waiting for me
+        'Cause we were just kids when we fell in love
+        Not knowing what it was
+        I will not give you up this time
+        But darling, just kiss me slow, your heart is all I own
+        And in your eyes you're holding mine
+    </p>
+
+    <p class="relative">
+            <b>Ini adalah contoh dari position relative</b> <br>
+            I found a love for me Darling just dive right in And follow my lead
+            Well I found a girl beautiful and sweet 
+            I never knew you were the someone waiting for me
+            'Cause we were just kids when we fell in love
+            Not knowing what it was
+            I will not give you up this time
+            But darling, just kiss me slow, your heart is all I own
+            And in your eyes you're holding mine
+    </p>
+
+    <p class="absolute">
+            <b>Ini adalah contoh dari position absolute</b> <br>
+            I found a love for me Darling just dive right in And follow my lead
+            Well I found a girl beautiful and sweet 
+            I never knew you were the someone waiting for me
+            'Cause we were just kids when we fell in love
+            Not knowing what it was
+            I will not give you up this time
+            But darling, just kiss me slow, your heart is all I own
+            And in your eyes you're holding mine
+    </p>
+
+    <p class="field">
+        Ini merupakan contoh dari position fixeed
+    </p>
+
+</div>
